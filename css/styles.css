@@ -194,7 +194,7 @@ img {
     margin: 0;
 }
 
-/* Security bar Style */
+/* Seguridad Style */
 
 .seguridad{
     background-color: var(--primario);
@@ -231,4 +231,6 @@ img {
         column-gap: 5rem;
         align-items: center;
     }
-} 
+}
+
+/* Comisiones Style */
