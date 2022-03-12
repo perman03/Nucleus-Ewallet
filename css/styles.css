@@ -148,6 +148,9 @@ img {
 .navegacion__link{
     color: var(--primario);
 }
+.navegacion__link--blanco{
+    color: var(--blanco);
+}
 @media (min-width: 768px) { 
     .navegacion__link{
         color: var(--blanco);
@@ -314,3 +317,24 @@ img {
     color: var(--primario);
     font-weight: 700;
 }
+
+.footer{
+    background-color: #462370;
+    padding: 3rem 0;
+}
+.footer__logo{
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+} 
+@media (min-width: 768px) { 
+    .footer__logo{
+        margin: 0;
+    }
+} 
+@media (min-width: 768px) { 
+    .footer__grid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+} 
